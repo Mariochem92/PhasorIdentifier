@@ -280,3 +280,5 @@ In addition, the code provides the following statistical metrics for both distri
 - Spread
 - Skewness
 
+![statanal](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/ad4ee2df-eeb0-41ff-b27d-3b69ec37b5e3)
+
