@@ -9,7 +9,6 @@ Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segm
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightred)](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
 ## Table of Contents
-
 - [Notebook Setup](#section-1)
 
 ## Notebook Setup {#section-1}
