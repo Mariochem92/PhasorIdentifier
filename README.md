@@ -16,6 +16,7 @@ Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segm
 - [Dataset Acquisition](#dataset-acquisition)
 - [Morphological Analysis and Clustering](#morphological-analysis-and-clustering)
 - [Statistical Analysis of ROIs](#statistical-analysis-of-rois)
+- [Literature References](#literature-references)
 
 ## Notebook Setup
 
@@ -289,4 +290,10 @@ In addition, the code provides the following statistical metrics for both distri
 - Skewness
 
 ![statanal](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/ad4ee2df-eeb0-41ff-b27d-3b69ec37b5e3)
+
+## Literature References
+
+- [Tentori et al. Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin]([https://example.com/paper1](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b)): effect of nanoencapsulation on the drug's combination of physical states.
+
+
 
