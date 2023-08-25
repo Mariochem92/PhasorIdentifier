@@ -127,8 +127,9 @@ Before running the code, make sure to set the following input parameters accordi
 
 By carefully configuring these input parameters, you can tailor the analysis to your data and research objectives. Make sure to review and adjust these settings before running the code for accurate and meaningful results.
 
-  
-<img width="1088" alt="Screenshot 2023-08-25 at 15 48 15" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/88133718-284f-4f24-b6ac-6dd29687bd70">
+  <img width="1088" alt="Screenshot 2023-08-25 at 15 48 15" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/419d65a0-1738-4065-afcf-571877028567">
+
+
 
 ### Morphological Analysis and Clustering
 
