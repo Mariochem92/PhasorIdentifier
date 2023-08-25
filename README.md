@@ -252,5 +252,31 @@ Use these maps to gain a deeper understanding of the morphological characteristi
 
 ![morphology](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/87e66b50-8702-440e-bbd5-260a88949f39)
 
+## Statistical Analysis of ROIs
 
+The Statistical Analysis of ROIs section provides a comprehensive tool for comparing variables between two selected ROIs within a sample. To begin the analysis, follow these steps:
+
+1. **Select Sample and ROIs:**
+   - Use the dropdown menu to choose the sample name and two ROI entries for comparison.
+   
+2. **Choose Variable:**
+   - In the same dropdown menu, pick a variable (G, S, or lifetime) to analyze and compare between the two ROIs.
+   
+3. **Generated Images:**
+   - The analysis generates three insightful images for comparison:
+     1. Variable Distributions: Illustrates the distribution of the chosen variable in both ROIs.
+     2. Cumulative Distributions: Visualizes the cumulative distribution of the variable in each ROI.
+     3. Boxplot (and Violinplot) Visualization: Presents a boxplot comparison of the variable in the two ROIs. The option to view a violinplot is also available for enhanced visualization.
+   
+Regarding Statistical Tests:
+- The code employs the Kolmogorov-Smirnov and Mann-Whitney tests with Bonferroni correction on the distributions fitted to a Gaussian Kernel Density Estimation (KDE).
+- To ensure robustness, the statistical tests are performed on automatically downsampled data to avoid test failures due to excessive statistics.
+   
+In addition, the code provides the following statistical metrics for both distributions:
+- 25th Percentile
+- 50th Percentile (Median)
+- 75th Percentile
+- Central Tendency
+- Spread
+- Skewness
 
