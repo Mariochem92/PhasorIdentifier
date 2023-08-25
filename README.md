@@ -303,17 +303,15 @@ In this analysis, the `df` dataframe of phasors is expanded to match the anticip
   - Each added column indicates the fractional intensity (Intensity Fraction) for a specific state.
   - Geometric analysis of the phasor plot determines the fractional intensities for states.
  
-\[ \text{Intensity Fraction (State A)} = \frac{\text{Distance to Origin (State A)}}{\text{Total Distance to Origin}} \]
 
 - **Molar Fractions (Optional):**
   - Quantum yield (QY) and molar extinction coefficient (ε) allow molar fraction estimation.
   - Molar fraction quantifies the proportion of each state's molecules.
 
-$\[ \text{Molar Fraction (State A)} = \frac{\text{Intensity Fraction (State A)}}{\text{Quantum Yield (State A)} \times \text{Molar Extinction Coefficient (State A)}} \]$
-
 
 ## Literature References
-
+- [Digman et al. The phasor approach to fluorescence lifetime imaging analysis](https://pubmed.ncbi.nlm.nih.gov/17981902/): Phasor plot representation paradigm shift of early 2000s
+- [Ranjit et al. Fit-free analysis of fluorescence lifetime imaging data using the phasor approach](https://pubmed.ncbi.nlm.nih.gov/30190551/): overview of fit-free Phasor-FLIM importance and application
 - [Tentori et al. Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b): effect of nanoencapsulation on the drug's combination of physical states.
 
 
