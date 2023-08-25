@@ -35,6 +35,42 @@ If you prefer to run the notebook locally, keep in mind the following considerat
 - You might need to have Python and required dependencies installed locally.
 - For optimal performance, using Google Colab is recommended due to its access to GPU resources and ease of use.
 
+## File Naming
+
+Proper file naming is one of the most critical aspects of using this code effectively. The file names play a crucial role in understanding the experimental context and enabling cumulative analysis for replicated experiments.
+
+### Naming Convention
+
+The naming convention for your data files should follow the format:
+
+`highlighted text: 20230830_ Sample 1_1.R64`
+
+- `highlighted text`: Date of the experiment in the format `YYYYMMDD`.
+- `Sample 1`: Name or identifier for the sample.
+- `1`: Number indicating the replica of the experiment.
+
+This naming format is essential for correctly interpreting and analyzing your data. It allows the code to associate different samples and replicas within the same experimental context.
+
+### Importance of Consistency
+
+Consistency in naming is crucial, especially when dealing with multiple replicates of the same experiment. Cumulative analysis, which relies on matching file names, depends on the consistent use of this naming convention.
+
+### Note on File Extension
+
+If you are using a `.tif` or `.i64` mask file alongside your data files, make sure to maintain the same naming convention for the text before the file extension. For example:
+
+`highlighted text: 20230830_ Sample 1_1_mask.tif`
+
+- `highlighted text`: Follows the same date, sample name, and replica number format as the data file.
+
+### Caution
+
+- Avoid using more or fewer than two underscores in your file names, as it will disrupt the code's ability to correctly interpret and analyze the data.
+- Inconsistent or incorrect naming can lead to errors in the code's execution.
+
+By adhering to this standardized file naming convention, you ensure smooth execution of the code and accurate representation of your experimental data.
+
+
 ## Features
 
 1. **Dataset Creation:**
@@ -66,7 +102,7 @@ Follow these steps to effectively use the features of this project in Google Col
 <img width="1421" alt="Screenshot 2023-08-25 at 15 27 28" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/5c2c55d4-268a-4473-b79c-fb87a9781906">
 
 2. **File Formats:**
-   - Supported formats: `.R64`, `.ref` and `.ifli` .
+   - Supported formats: `.R64`, `.ref` and potentially `.ifli` .
    - Please note that the `.ifli` format is not advised due to its large file size.
   
 3. **Data Format and Structure:**
@@ -123,6 +159,8 @@ Before running the code, make sure to set the following input parameters accordi
 10. **Reference Points:**
     - By default, set to `False`. Set to `True` if you want to plot reference points on the phasor plot.
     - To enable reference points, use the notebook cell labeled "Insert Refplot."
+10. **File extension:**
+    - By default set to `.R64`, can change to `.ref`
 
 
 By carefully configuring these input parameters, you can tailor the analysis to your data and research objectives. Make sure to review and adjust these settings before running the code for accurate and meaningful results.
