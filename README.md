@@ -1,4 +1,4 @@
-# PhasorIdentifier
+<img width="930" alt="output PI" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/6ed8d9ff-8b87-409a-885e-900b2faae90f"># PhasorIdentifier
 Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segmentation, pH correlation, nanoscale effects, and precise quantification. Versatile for various research scenarios.
 
 
@@ -222,7 +222,7 @@ The code is engineered to identify regions of interest through two distinct meth
     df.to_csv('Exported_data.csv', index=False)
     ```
 
-
+<img width="930" alt="output PI" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/e80c440f-9265-47c7-92d8-604147389e50">
 
 ### Morphological Analysis and Clustering
 
