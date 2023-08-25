@@ -200,6 +200,7 @@ The code is engineered to identify regions of interest through two distinct meth
 
 - The analysis yields two pivotal dataframes:
     1. `df`: This dataframe comprehensively stores information related to the extracted phasors during the analysis.
+
 | index | Sample | G | G std | S | S std | lifetime | lifetime std | sampled points | Contour PCA variability ratio | ContourIdx | phasor |
 |-------|--------|---|-------|---|-------|----------|--------------|----------------|-------------------------------|------------|--------|
 |       |        |   |       |   |       |          |              |                |                               |            |        |
