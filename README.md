@@ -188,6 +188,7 @@ To effectively utilize the provided codebase, adhere to the subsequent instructi
      path = '/path/to/your/data/directory'
      ```
 <img width="1430" alt="Screenshot 2023-08-25 at 16 18 21" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/bf1b2592-24fa-41cc-8839-bef40b1759a1">
+
 ### Code Functionality Overview
 
 The code is engineered to identify regions of interest through two distinct methods: contour plots and phasor analysis. This process culminates in the generation of two pivotal dataframes: `df` and `df_dataset`.
