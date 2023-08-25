@@ -43,9 +43,9 @@ Proper file naming is one of the most critical aspects of using this code effect
 
 The naming convention for your data files should follow the format:
 
-`highlighted text: 20230830_ Sample 1_1.R64`
+`20230830_ Sample 1_1.R64`
 
-- `highlighted text`: Date of the experiment in the format `YYYYMMDD`.
+- Date of the experiment in the format `YYYYMMDD`.
 - `Sample 1`: Name or identifier for the sample.
 - `1`: Number indicating the replica of the experiment.
 
@@ -55,13 +55,13 @@ This naming format is essential for correctly interpreting and analyzing your da
 
 Consistency in naming is crucial, especially when dealing with multiple replicates of the same experiment. Cumulative analysis, which relies on matching file names, depends on the consistent use of this naming convention.
 
-### Note on File Extension
+### Note on Mask File Extension
 
 If you are using a `.tif` or `.i64` mask file alongside your data files, make sure to maintain the same naming convention for the text before the file extension. For example:
 
-`highlighted text: 20230830_ Sample 1_1_mask.tif`
+`20230830_ Sample 1_1.tif`
 
-- `highlighted text`: Follows the same date, sample name, and replica number format as the data file.
+ Follows the same date, sample name, and replica number format as the data file.
 
 ### Caution
 
