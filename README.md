@@ -7,5 +7,8 @@ Zenodo generated DOI:
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://your-repo-url)
 
+[![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://your-repo-url)
+
+
 
 
