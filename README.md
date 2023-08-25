@@ -14,6 +14,7 @@ Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segm
 - [Features](#features)
 - [Usage](#usage)
 - [Dataset Acquisition](#dataset-acquisition)
+- Morphological Analysis(#morphological-analysis-and-clustering)
 
 ## Notebook Setup
 
@@ -231,8 +232,7 @@ The code is engineered to identify regions of interest through two distinct meth
 
 <img width="930" alt="output PI" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/e80c440f-9265-47c7-92d8-604147389e50">
 
-### Morphological Analysis and Clustering
-## Morphological Analysis
+## Morphological Analysis and Clustering
 
 In this section, you can visualize Regions of Interest (ROIs) and perform morphological analysis on the data. The provided functionality allows you to select specific ROIs based on the sample name and ROI index.
 
