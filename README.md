@@ -309,7 +309,7 @@ In this analysis, the `df` dataframe of phasors is expanded to match the anticip
   - Quantum yield (QY) and molar extinction coefficient (ε) allow molar fraction estimation.
   - Molar fraction quantifies the proportion of each state's molecules.
 
-\[ \text{Molar Fraction (State A)} = \frac{\text{Intensity Fraction (State A)}}{\text{Quantum Yield (State A)} \times \text{Molar Extinction Coefficient (State A)}} \]
+$\[ \text{Molar Fraction (State A)} = \frac{\text{Intensity Fraction (State A)}}{\text{Quantum Yield (State A)} \times \text{Molar Extinction Coefficient (State A)}} \]$
 
 
 ## Literature References
