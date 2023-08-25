@@ -52,6 +52,44 @@ If you prefer to run the notebook locally, keep in mind the following considerat
 5. **Detection of Coexisting Physical States:**
    - Identify molar fractions or intensity fractions of coexisting drugs' physical states within nano particles. Provide valuable insights into complex systems.
 
+## Usage
+
+Follow these steps to effectively use the features of this project in Google Colab:
+
+### Dataset Creation
+1. **Import Data:**
+   - The code is designed to read data from `.R64` and `.ref` file formats.
+   - Files need to be uploaded to the file section of Google Colab.
+   - You have the option to either manually upload the files or simply drag and drop them into the file section.
+   - The code will automatically process all uploaded files.
+  
+<img width="1421" alt="Screenshot 2023-08-25 at 15 27 28" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/5c2c55d4-268a-4473-b79c-fb87a9781906">
+
+2. **File Formats:**
+   - Supported formats: `.R64`, `.ref` and `.ifli` .
+   - Please note that the `.ifli` format is not advised due to its large file size.
+  
+3. **Data Format and Structure:**
+   - The uploaded `.R64` and `.ref` files should each contain the following arrays:
+     - Intensity: Array representing the intensity values.
+     - 1st Harmonic Phase: Array representing the phase values of the 1st harmonic.
+     - 1st Harmonic Module: Array representing the module values of the 1st harmonic.
+     - 2nd Harmonic Phase: Array representing the phase values of the 2nd harmonic.
+     - 2nd Harmonic Module: Array representing the module values of the 2nd harmonic.
+   - Ensure that the data arrays are properly aligned and correspond to each other.
+   - If your data files do not match this structure, you might need to preprocess or reformat the data to fit the required arrangement.
+
+4. **Pre-Processing Operations:**:
+  - Make sure to compile all the necessary functions before proceeding with the main code execution.
+  - Review and verify the input parameters that will be used in the main code section.
+  - Ensure that the parameters are correctly set according to your specific use case and requirements.
+   
+<img width="1421" alt="Screenshot 2023-08-25 at 15 40 54" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/8930e634-a7a6-4813-9b28-a80e6e66e985">
+
+2. **Dataset Generation**:
+   - Explain how to use the provided functions to generate the two datasets: phasor collection and detailed data.
+
+### Morphological Analysis and Clustering
 
 
 
