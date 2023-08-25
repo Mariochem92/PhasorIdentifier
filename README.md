@@ -92,7 +92,7 @@ By adhering to this standardized file naming convention, you ensure smooth execu
 
 Follow these steps to effectively use the features of this project in Google Colab:
 
-### Dataset Creation
+### Pre-processing Operations
 1. **Import Data:**
    - The code is designed to read data from `.R64` and `.ref` file formats.
    - Files need to be uploaded to the file section of Google Colab.
@@ -167,6 +167,8 @@ By carefully configuring these input parameters, you can tailor the analysis to 
 
   <img width="1088" alt="Screenshot 2023-08-25 at 15 48 15" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/419d65a0-1738-4065-afcf-571877028567">
 
+### Dataset Acquisition
+<img width="1430" alt="Screenshot 2023-08-25 at 16 18 21" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/bf1b2592-24fa-41cc-8839-bef40b1759a1">
 
 
 ### Morphological Analysis and Clustering
