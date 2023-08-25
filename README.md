@@ -310,6 +310,7 @@ In this analysis, the `df` dataframe of phasors is expanded to match the anticip
   - Quantum yield (QY) and molar extinction coefficient (ε) allow molar fraction estimation.
   - Molar fraction quantifies the proportion of each state's molecules.
 
+![molarfractions](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/3d920ae1-b1af-4416-a96f-c5c1abe77e2a)
 
 ## Literature References
 - [Digman et al. The phasor approach to fluorescence lifetime imaging analysis](https://pubmed.ncbi.nlm.nih.gov/17981902/): Phasor plot representation paradigm shift of early 2000s.
