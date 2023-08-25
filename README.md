@@ -293,7 +293,7 @@ In addition, the code provides the following statistical metrics for both distri
 
 ## Literature References
 
-- [Tentori et al. Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin]([https://example.com/paper1](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b)): effect of nanoencapsulation on the drug's combination of physical states.
+- [Tentori et al. Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin](https://example.com/paper1](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b): effect of nanoencapsulation on the drug's combination of physical states.
 
 
 
