@@ -1,4 +1,4 @@
-<img width="930" alt="output PI" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/6ed8d9ff-8b87-409a-885e-900b2faae90f"># PhasorIdentifier
+# PhasorIdentifier
 Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segmentation, pH correlation, nanoscale effects, and precise quantification. Versatile for various research scenarios.
 
 
