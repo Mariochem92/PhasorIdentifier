@@ -12,7 +12,7 @@ Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segm
 
 - [Notebook Setup](#section-1)
 
-### Notebook Setup {#section-1}
+## Notebook Setup {#section-1}
 
 To begin using this project, follow these steps to run the code in Google Colab. Running the notebook in Google Colab is recommended as it provides access to powerful GPUs and eliminates concerns related to memory and disk space.
 
