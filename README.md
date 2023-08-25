@@ -198,11 +198,17 @@ The code is engineered to identify regions of interest through two distinct meth
     1. An image containing all detected phasors, providing an overview of their distribution.
     2. For each analyzed sample (either cumulative or single-file analysis), the code generates an image showcasing identified ROIs as contour plots.
 
-- **Dataframes:**
-  - The analysis yields two pivotal dataframes:
+- The analysis yields two pivotal dataframes:
     1. `df`: This dataframe comprehensively stores information related to the extracted phasors during the analysis.
+
 | index | Sample | G | G std | S | S std | lifetime | lifetime std | sampled points | Contour PCA variability ratio | ContourIdx | phasor |
-   3. `df_dataset`: Within this dataframe, you will find intricate details about each individual datapoint encapsulated within the analyzed pixels.
+|-------|--------|---|-------|---|-------|----------|--------------|----------------|-------------------------------|------------|--------|
+|       |        |   |       |   |       |          |              |                |                               |            |        |
+|       |        |   |       |   |       |          |              |                |                               |            |        |
+|       |        |   |       |   |       |          |              |                |                               |            |        |
+
+   2. `df_dataset`: Within this dataframe, you will find intricate details about each individual datapoint encapsulated within the analyzed pixels.
+
 
 - **Exporting Data:**
   - Should you wish to conduct further analysis externally, the dataframes can be easily exported as CSV files. Employ the following command to export the `df` dataframe:
