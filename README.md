@@ -225,6 +225,30 @@ The code is engineered to identify regions of interest through two distinct meth
 <img width="930" alt="output PI" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/e80c440f-9265-47c7-92d8-604147389e50">
 
 ### Morphological Analysis and Clustering
+## Morphological Analysis
+
+In this section, you can visualize Regions of Interest (ROIs) and perform morphological analysis on the data. The provided functionality allows you to select specific ROIs based on the sample name and ROI index.
+
+### Visualizing ROIs
+
+1. **Select Sample and ROI:**
+   - Using the dropdown menu, choose a sample name and ROI index to visualize the corresponding region.
+   - Note: ROI 0 represents the group of data discarded from any ROI.
+
+2. **Intensity and Lifetime Maps:**
+   - The analysis generates intensity and lifetime maps, highlighting the distribution of the selected ROI.
+
+3. **Cluster Analysis:**
+   - You have the option to perform spatial analysis by clustering. Input the desired number of clusters in the dropdown menu.
+   - If the cluster parameter is set to a number below 2, the analysis uses 2 clusters; otherwise, it uses the specified input.
+
+The morphological analysis section returns the following maps:
+
+- Intensity Map: Visualizes the intensity distribution within the selected ROI.
+- Lifetime Map: Displays the lifetime distribution within the selected ROI.
+- Clustering Map: Offers spatial insight through clustering analysis.
+
+Use these maps to gain a deeper understanding of the morphological characteristics of the selected ROIs and explore spatial relationships within your data.
 
 
 
