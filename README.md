@@ -250,7 +250,7 @@ The morphological analysis section returns the following maps:
 
 Use these maps to gain a deeper understanding of the morphological characteristics of the selected ROIs and explore spatial relationships within your data.
 
-![morphology](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/51e857c4-8889-4257-bdfb-3ebac3bf7c62)
+![morphology](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/87e66b50-8702-440e-bbd5-260a88949f39)
 
 
 
