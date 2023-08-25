@@ -16,6 +16,7 @@ Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segm
 - [Dataset Acquisition](#dataset-acquisition)
 - [Morphological Analysis and Clustering](#morphological-analysis-and-clustering)
 - [Statistical Analysis of ROIs](#statistical-analysis-of-rois)
+- [Intensity and Molar Fraction Analysis](#intensity-and-molar-fraction-analysis)
 - [Literature References](#literature-references)
 
 ## Notebook Setup
