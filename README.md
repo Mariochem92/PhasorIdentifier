@@ -40,17 +40,17 @@ If you prefer to run the notebook locally, keep in mind the following considerat
 1. **Dataset Creation:**
    - Generate two datasets: one for collecting identified phasors and another containing detailed information about each data point imported from files.
 
-2. **Morphological Analysis and Clustering:**
+2. **Phasors and ROIs Visualization:**
+   - Visualize phasor shifts to offer an intuitive understanding of variations and trends within the data.
+     
+3. **Morphological Analysis and Clustering:**
    - Perform morphological analysis on the datasets, including clustering functionalities to group similar data points together.
 
-3. **Statistical Analysis:**
+4. **Statistical Analysis:**
    - Conduct statistical analysis on sample distributions, such as lifetime, G or S-wise properties. Provide insights into the underlying data characteristics.
 
-4. **Phasor Shifts Visualization:**
-   - Visualize phasor shifts to offer an intuitive understanding of variations and trends within the data.
-
 5. **Detection of Coexisting Physical States:**
-   - Identify molar fractions or intensity fractions of coexisting physical states within nano particles. Provide valuable insights into complex systems.
+   - Identify molar fractions or intensity fractions of coexisting drugs' physical states within nano particles. Provide valuable insights into complex systems.
 
 
 
