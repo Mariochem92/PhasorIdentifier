@@ -291,6 +291,27 @@ In addition, the code provides the following statistical metrics for both distri
 
 ![statanal](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/ad4ee2df-eeb0-41ff-b27d-3b69ec37b5e3)
 
+## Intensity and Molar Fraction Analysis
+
+In this analysis, the `df` dataframe of phasors is expanded to match the anticipated number of physical states. For instance, if we're considering three physical states (e.g., free-in-solution, membrane-bound, crystal drug), three additional columns are appended to `df`, each representing a state.
+
+- **Data Expansion:**
+  - The `df` dataframe is augmented with columns for each expected physical state.
+  - For three states, three new columns are created.
+
+- **Fractional Intensity:**
+  - Each added column indicates the fractional intensity (Intensity Fraction) for a specific state.
+  - Geometric analysis of the phasor plot determines the fractional intensities for states.
+ 
+\[ \text{Intensity Fraction (State A)} = \frac{\text{Distance to Origin (State A)}}{\text{Total Distance to Origin}} \]
+
+- **Molar Fractions (Optional):**
+  - Quantum yield (QY) and molar extinction coefficient (ε) allow molar fraction estimation.
+  - Molar fraction quantifies the proportion of each state's molecules.
+
+\[ \text{Molar Fraction (State A)} = \frac{\text{Intensity Fraction (State A)}}{\text{Quantum Yield (State A)} \times \text{Molar Extinction Coefficient (State A)}} \]
+
+
 ## Literature References
 
 - [Tentori et al. Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b): effect of nanoencapsulation on the drug's combination of physical states.
