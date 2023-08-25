@@ -202,10 +202,7 @@ The code is engineered to identify regions of interest through two distinct meth
   - The analysis yields two pivotal dataframes:
     1. `df`: This dataframe comprehensively stores information related to the extracted phasors during the analysis.
 | index | Sample | G | G std | S | S std | lifetime | lifetime std | sampled points | Contour PCA variability ratio | ContourIdx | phasor |
-|-------|--------|---|-------|---|-------|----------|--------------|----------------|-------------------------------|------------|--------|
-
-
-    3. `df_dataset`: Within this dataframe, you will find intricate details about each individual datapoint encapsulated within the analyzed pixels.
+   3. `df_dataset`: Within this dataframe, you will find intricate details about each individual datapoint encapsulated within the analyzed pixels.
 
 - **Exporting Data:**
   - Should you wish to conduct further analysis externally, the dataframes can be easily exported as CSV files. Employ the following command to export the `df` dataframe:
