@@ -164,12 +164,12 @@ Before running the code, make sure to set the following input parameters accordi
    - For cumulative analysis, the code uses the input file name.
   
 9. **Cell Segmentation:**
-   - By default, set to `False`. Set to `True` if you want to use the Cellpose algorithm for cell segmentation.
-   - To enable cell segmentation, use the notebook cell labeled "Cell Segmentation."
+   - By default, set to `off`. Set to `on` if you want to use the Cellpose algorithm for cell segmentation.
+   - To enable cell segmentation, use the notebook cell labeled "Cell Segmentation"
 
 10. **Reference Points:**
-    - By default, set to `False`. Set to `True` if you want to plot reference points on the phasor plot.
-    - To enable reference points, use the notebook cell labeled "Insert Refplot."
+    - By default, set to `off`. Set to `on` if you want to plot reference points on the phasor plot.
+    - To enable reference points, use the notebook cell labeled "Insert Refplot"
 10. **File extension:**
     - By default set to `.R64`, can change to `.ref`
 
