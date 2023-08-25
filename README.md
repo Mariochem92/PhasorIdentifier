@@ -86,8 +86,40 @@ Follow these steps to effectively use the features of this project in Google Col
    
 <img width="1421" alt="Screenshot 2023-08-25 at 15 40 54" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/8930e634-a7a6-4813-9b28-a80e6e66e985">
 
-2. **Dataset Generation**:
-   - Explain how to use the provided functions to generate the two datasets: phasor collection and detailed data.
+### Input Parameters
+
+Before running the code, make sure to set the following input parameters according to your specific needs:
+
+1. **Threshold Selection:**
+   - Set the thresholding method by commenting out the methods you're not using: Otsu, Multi-Otsu, or Custom.
+   
+2. **Extent of Median Filter:**
+   - Adjust the extent of the median filter applied to the data. Alternatively, you can use a Gaussian filter.
+
+3. **Frequency of FLIM Signal:**
+   - Specify the frequency at which the FLIM signal was collected. The default is set to 80 MHz.
+
+4. **Minimum Pixels for Phasor Detection:**
+   - Set the minimum number of pixels required to detect the presence of a phasor.
+
+5. **Minimum Pixels for ROI Detection:**
+   - Specify the minimum number of pixels required to define the presence of a Region of Interest (ROI).
+
+6. **ROI Contour Levels and Lower Frequency Levels:**
+   - Define the number of contour levels used to detect an ROI (default: 8 levels).
+   - Set the number of lower frequency levels to discard (default: 3 levels).
+
+7. **Signal Percentile for Contour Upper Limit:**
+   - Adjust the signal percentile used to set an upper boundary for the contour plot (default: 95th percentile).
+
+8. **Type of Analysis:**
+   - Choose the type of analysis: "Cumulative" or "Single File."
+   - For cumulative analysis, the code uses the input file name.
+
+By carefully configuring these input parameters, you can tailor the analysis to your data and research objectives. Make sure to review and adjust these settings before running the code for accurate and meaningful results.
+
+  
+<img width="1088" alt="Screenshot 2023-08-25 at 15 48 15" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/88133718-284f-4f24-b6ac-6dd29687bd70">
 
 ### Morphological Analysis and Clustering
 
