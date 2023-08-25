@@ -313,9 +313,9 @@ In this analysis, the `df` dataframe of phasors is expanded to match the anticip
 ![molarfractions](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/3d920ae1-b1af-4416-a96f-c5c1abe77e2a)
 
 ## Literature References
-- [Digman et al. The phasor approach to fluorescence lifetime imaging analysis](https://pubmed.ncbi.nlm.nih.gov/17981902/): Phasor plot representation paradigm shift of early 2000s.
-- [Ranjit et al. Fit-free analysis of fluorescence lifetime imaging data using the phasor approach](https://pubmed.ncbi.nlm.nih.gov/30190551/): overview of fit-free Phasor-FLIM importance and application.
-- [Tentori et al. Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b): FLIM monitoring of the effect of nanoencapsulation on the drug's combination of physical states.
+- [Digman et al., The phasor approach to fluorescence lifetime imaging analysis](https://pubmed.ncbi.nlm.nih.gov/17981902/): Phasor plot representation paradigm shift of early 2000s.
+- [Ranjit et al., Fit-free analysis of fluorescence lifetime imaging data using the phasor approach](https://pubmed.ncbi.nlm.nih.gov/30190551/): overview of fit-free Phasor-FLIM importance and application.
+- [Tentori et al., Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b): FLIM monitoring of the effect of nanoencapsulation on the drug's combination of physical states.
 
 
 
