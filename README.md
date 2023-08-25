@@ -167,8 +167,36 @@ By carefully configuring these input parameters, you can tailor the analysis to 
 
   <img width="1088" alt="Screenshot 2023-08-25 at 15 48 15" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/419d65a0-1738-4065-afcf-571877028567">
 
-### Dataset Acquisition
+## Dataset Acquisition
+
+To effectively utilize the provided codebase, adhere to the subsequent instructions to execute the analysis in your local environment. These steps are structured to ensure a smooth and accurate analysis process.
+
+### Prerequisite Operations
+
+1. **Pre-processing and File Naming:**
+   - Prior to initiating the dataset acquisition process, confirm that you've completed all necessary pre-processing operations on your data.
+   - Verify that the file naming conventions adhere to the required standards for the code's proper functioning.
+
+2. **Local Execution Adjustments:**
+   - If your intention is to run the code locally on your machine, you must modify a specific variable within the code.
+   - Locate the `path` variable in the code and replace the existing 'content' path with the desired custom path.
+     ```python
+     # Change this line
+     path = 'content'
+
+     # To something like this
+     path = '/path/to/your/data/directory'
+     ```
 <img width="1430" alt="Screenshot 2023-08-25 at 16 18 21" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/bf1b2592-24fa-41cc-8839-bef40b1759a1">
+### Code Functionality Overview
+
+The code is engineered to identify regions of interest through two distinct methods: contour plots and phasor analysis. This process culminates in the generation of two pivotal dataframes: `df` and `df_dataset`.
+
+- **df Dataframe:**
+  - This dataframe comprehensively stores information related to the extracted phasors during the analysis.
+
+- **df_dataset Dataframe:**
+  - Within this dataframe, you will find intricate details about each individual datapoint encapsulated within the analyzed pixels.
 
 
 ### Morphological Analysis and Clustering
