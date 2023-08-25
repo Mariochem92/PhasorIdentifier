@@ -191,13 +191,24 @@ To effectively utilize the provided codebase, adhere to the subsequent instructi
 
 ### Code Functionality Overview
 
-The code is engineered to identify regions of interest through two distinct methods: contour plots and phasor analysis. This process culminates in the generation of two pivotal dataframes: `df` and `df_dataset`.
+The code is engineered to identify regions of interest through two distinct methods: contour plots and phasor analysis. This process culminates in the generation of images and two pivotal dataframes: `df` and `df_dataset`.
 
-- **df Dataframe:**
-  - This dataframe comprehensively stores information related to the extracted phasors during the analysis.
+- **Generated Images:**
+  - The code produces two types of images:
+    1. An image containing all detected phasors, providing an overview of their distribution.
+    2. For each analyzed sample (either cumulative or single-file analysis), the code generates an image showcasing identified ROIs as contour plots.
 
-- **df_dataset Dataframe:**
-  - Within this dataframe, you will find intricate details about each individual datapoint encapsulated within the analyzed pixels.
+- **Dataframes:**
+  - The analysis yields two pivotal dataframes:
+    1. `df`: This dataframe comprehensively stores information related to the extracted phasors during the analysis.
+    2. `df_dataset`: Within this dataframe, you will find intricate details about each individual datapoint encapsulated within the analyzed pixels.
+
+- **Exporting Data:**
+  - Should you wish to conduct further analysis externally, the dataframes can be easily exported as CSV files. Employ the following command to export the `df` dataframe:
+    ```python
+    df.to_csv('Exported_data.csv', index=False)
+    ```
+
 
 
 ### Morphological Analysis and Clustering
