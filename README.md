@@ -324,9 +324,23 @@ In this analysis, the `df` dataframe of phasors is expanded to match the anticip
 
 ![molarfractions](https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/3d920ae1-b1af-4416-a96f-c5c1abe77e2a)
 
-## Literature References
+## Cellular Metabolism Analysis
+- **NADH Ratio Calculation:**
+  - The `nadh_ratio` function is used to calculate the fraction of NADH that is in a bound and free state for each phasor data point stored within the `df_common_filtered` dataframe.
+  - This computation is made possible through the `semicircle_intersection` function, which is employed to determine the position of bound NADH.
+  - The `semicircle_intersection` function takes as input free NADH (0.37 ns) and the phasor coordinates of each phasor to perform this calculation.
+  - If needed, the same method can be applied to analyze the fractional intensity of FAD (Flavin Adenine Dinucleotide) by simply substituting the 0.37 ns value with the appropriate lifetime value for free FAD.
+- **NADH analysis visualization:**
+  - The intersection points, representing free and bound NADH, can be visualized on the phasor plot.
+  - Additionally, a distribution of free and bound NADH can be presented using a violin plot, allowing for a graphical representation of the data.
+  - Furthermore, the implementation (under development) includes a mapping of metabolism, indicating a comprehensive approach to metabolic analysis.
+
+
+## Literature Key References
 - [Digman et al., The phasor approach to fluorescence lifetime imaging analysis](https://pubmed.ncbi.nlm.nih.gov/17981902/): Phasor plot representation paradigm shift of early 2000s.
 - [Ranjit et al., Fit-free analysis of fluorescence lifetime imaging data using the phasor approach](https://pubmed.ncbi.nlm.nih.gov/30190551/): overview of fit-free Phasor-FLIM importance and application.
+- [Malacrida et al., The Phasor Plot: A Universal Circle to Advance Fluorescence Lifetime Analysis and Interpretation]([https://pubmed.ncbi.nlm.nih.gov/30190551/](https://www.annualreviews.org/doi/pdf/10.1146/annurev-biophys-062920-063631)): extensive review of phasor-FLIM, highly recommended to anyone new the field.
+- [Ranjit et al., Determination of the metabolic index using the fluorescence lifetime of free and bound nicotinamide adenine dinucleotide using the phasor approach]([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6842045/])): insight into metabolic index and NADH thourough analysis.
 - [Tentori et al., Fluorescence lifetime microscopy unveils the supramolecular organization of liposomal Doxorubicin](https://pubs.rsc.org/en/content/articlelanding/2022/nr/d2nr00311b): FLIM monitoring of the effect of nanoencapsulation on the drug's combination of physical states.
 
 
