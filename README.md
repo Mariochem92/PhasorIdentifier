@@ -65,7 +65,7 @@ The naming convention for your data files should follow the format:
 `20230830_ Sample 1_1.R64`
 
 - Date of the experiment in the format `YYYYMMDD`.
-- `Sample 1`: Name or identifier for the sample.
+- `Sample 1`: Name or identifier for the sample (no underscores allowed).
 - `1`: Number indicating the replica of the experiment.
 
 This naming format is essential for correctly interpreting and analyzing your data. It allows the code to associate different samples and replicas within the same experimental context.
@@ -178,8 +178,12 @@ Before running the code, make sure to set the following input parameters accordi
 10. **Reference Points:**
     - By default, set to `off`. Set to `on` if you want to plot reference points on the phasor plot.
     - To enable reference points, use the notebook cell labeled "Insert Refplot"
+   
 10. **File extension:**
     - By default set to `.R64`, can change to `.ref`
+
+11. **Tau mode:**
+    - By default set to `phase`, can change to `module`
 
 
 By carefully configuring these input parameters, you can tailor the analysis to your data and research objectives. Make sure to review and adjust these settings before running the code for accurate and meaningful results.
