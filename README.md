@@ -333,7 +333,11 @@ In this analysis, the `df` dataframe of phasors is expanded to match the anticip
 - **NADH analysis visualization:**
   - The intersection points, representing free and bound NADH, can be visualized on the phasor plot.
   - Additionally, a distribution of free and bound NADH can be presented using a violin plot, allowing for a graphical representation of the data.
-  - Furthermore, the implementation (under development) includes a mapping of metabolism, indicating a comprehensive approach to metabolic analysis.
+  - Furthermore, the implementation includes a mapping of metabolism, indicating a comprehensive approach to metabolic analysis.
+ 
+<img width="1205" alt="image" src="https://github.com/Mariochem92/PhasorIdentifier/assets/51441240/f1a7aeaf-72fc-4e33-acde-8d7324d84acf">
+
+
 
 
 ## Literature Key References
