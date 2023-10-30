@@ -28,6 +28,7 @@ bioRxiv 2023.08.30.555392
 - [Morphological Analysis and Clustering](#morphological-analysis-and-clustering)
 - [Statistical Analysis of ROIs](#statistical-analysis-of-rois)
 - [Intensity and Molar Fraction Analysis](#intensity-and-molar-fraction-analysis)
+- [Cellular Metabolism Analysis](#cellular-metabolism-analysis)
 - [Literature References](#literature-references)
 
 ## Notebook Setup
