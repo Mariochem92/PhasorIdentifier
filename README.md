@@ -16,6 +16,9 @@ bioRxiv 2023.08.30.555392
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightred)](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
+[![Test Dataset](https://img.shields.io/badge/DOI-10.1101/2023.08.30.555392-red.svg)](https://zenodo.org/records/10054812)
+
+
 ## Table of Contents
 - [Notebook Setup](#notebook-setup)
 - [File Naming](#file-naming)
