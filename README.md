@@ -4,11 +4,8 @@ Analyze FLIM files (.R64, .ref) effortlessly in Google Colab. Masking, cell segm
 
 **How to cite?** 
 
-Phasor Identifier: A Cloud-based Analysis of Phasor-FLIM Data on Python Notebooks
-
-Mario Bernardi, Francesco Cardarelli
-
-bioRxiv 2023.08.30.555392
+Bernardi M, Cardarelli F. Phasor identifier: A cloud-based analysis of phasor-FLIM data on Python notebooks. 
+Biophys Rep (N Y). 2023 Nov 7;3(4):100135. doi: 10.1016/j.bpr.2023.100135. 
 
 [![DOI](https://img.shields.io/badge/DOI-10.1101/2023.08.30.555392-blue.svg)](https://doi.org/10.1101/2023.08.30.555392)
 
